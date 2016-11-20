@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<Interchange segment-terminator="&#xD;" element-separator="*" sub-element-separator="&gt;">
+  <ISA>
+    <!--Author Information Qualifier-->
+    <ISA01>01</ISA01>
+    <!--Author Information-->
+    <ISA02>0000000000</ISA02>
+    <!--Security Information Qualifer-->
+    <ISA03>01<!--Password--></ISA03>
+    <!--Security Information-->
+    <ISA04>ABCCO     </ISA04>
+    <!--Interchange ID Qualifier-->
+    <ISA05>12<!--Matress Retailer--></ISA05>
+    <!--Interchange Sender ID-->
+    <ISA06>4405197800     </ISA06>
+    <!--Interchange ID Qualifier-->
+    <ISA07>01<!--Duns (Dun & Bradstreet)--></ISA07>
+    <!--Interchange Receiver ID-->
+    <ISA08>999999999      </ISA08>
+    <!--Interchange Date-->
+    <ISA09>101127</ISA09>
+    <!--Interchange Time-->
+    <ISA10>1719</ISA10>
+    <!--Inter Control Standards Identifier-->
+    <ISA11>U<!--U.S. EDI Community of ASC X12, TDCC, and UCS--></ISA11>
+    <!--Inter Control Version Number-->
+    <ISA12>00400</ISA12>
+    <!--Inter Control Number-->
+    <ISA13>000003438</ISA13>
+    <!--Acknowlegment Requested-->
+    <ISA14>0<!--No Acknowledgment Requested--></ISA14>
+    <!--Usage Indicator-->
+    <ISA15>P<!--Production Data--></ISA15>
+    <!--Component Element Separator-->
+    <ISA16>
+      <ISA1601 />
+      <ISA1602 />
+    </ISA16>
+  </ISA>
+  <FunctionGroup>
+    <GS>
+      <!--Functional Identifier Code-->
+      <GS01>PO</GS01>
+      <!--Application Sender's Code-->
+      <GS02>4405197800</GS02>
+      <!--Application Receiver's Code-->
+      <GS03>999999999</GS03>
+      <!--Date-->
+      <GS04>20101127</GS04>
+      <!--Time-->
+      <GS05>1719</GS05>
+      <!--Group Control Number-->
+      <GS06>1421</GS06>
+      <!--Responsible Agency Code-->
+      <GS07>X<!--Accredited Standards Committee X12--></GS07>
+      <!--Version/Release/Industry Identifier Code-->
+      <GS08>004010VICS</GS08>
+    </GS>
+    <Transaction ControlNumber="000000010">
+      <ST>
+        <!--Transaction Set Identifier Code-->
+        <ST01>850</ST01>
+        <!--Transaction Set Control Number-->
+        <ST02>000000010</ST02>
+      </ST>
+      <BEG>
+        <BEG01>00</BEG01>
+        <BEG02>SA</BEG02>
+        <BEG03>08292233294</BEG03>
+        <BEG04 />
+        <BEG05>20101127</BEG05>
+        <BEG06>610385385</BEG06>
+      </BEG>
+      <REF>
+        <!--Reference Identification Qualifier-->
+        <REF01>DP</REF01>
+        <!--Reference Identification-->
+        <REF02>038</REF02>
+      </REF>
+      <REF>
+        <!--Reference Identification Qualifier-->
+        <REF01>PS</REF01>
+        <!--Reference Identification-->
+        <REF02>R</REF02>
+      </REF>
+      <ITD>
+        <ITD01>14</ITD01>
+        <ITD02>3</ITD02>
+        <ITD03>2</ITD03>
+        <ITD04 />
+        <ITD05>45</ITD05>
+        <ITD06 />
+        <ITD07>46</ITD07>
+      </ITD>
+      <DTM>
+        <!--Data/Time Qualifier-->
+        <DTM01>002</DTM01>
+        <!--Date-->
+        <DTM02>20101214</DTM02>
+      </DTM>
+      <PKG>
+        <PKG01>F</PKG01>
+        <PKG02>68</PKG02>
+        <PKG03 />
+        <PKG04 />
+        <PKG05>PALLETIZE SHIPMENT</PKG05>
+      </PKG>
+      <PKG>
+        <PKG01>F</PKG01>
+        <PKG02>66</PKG02>
+        <PKG03 />
+        <PKG04 />
+        <PKG05>REGULAR</PKG05>
+      </PKG>
+      <TD5>
+        <TD501>A</TD501>
+        <TD502>92</TD502>
+        <TD503>P3</TD503>
+        <TD504 />
+        <TD505>SEE XYZ RETAIL ROUTING GUIDE</TD505>
+      </TD5>
+      <Loop LoopId="N1" Name="Name">
+        <N1>
+          <!--Entity Identifier Code-->
+          <N101>ST</N101>
+          <!--Name-->
+          <N102>XYZ RETAIL</N102>
+          <!--Identification Code Qualifier-->
+          <N103>9<!--D-U-N-S+4,D-U-N-S Number with Four Character Suffix--></N103>
+          <!--Identification Code-->
+          <N104>0003947268292</N104>
+        </N1>
+        <N3>
+          <!--Address Information-->
+          <N301>31875 SOLON RD</N301>
+        </N3>
+        <N4>
+          <!--City Name-->
+          <N401>SOLON</N401>
+          <!--State or Provice Code-->
+          <N402>OH</N402>
+          <!--Postal Code-->
+          <N403>44139</N403>
+        </N4>
+      </Loop>
+      <Loop LoopId="PO1" Name="Baseline Item Data">
+        <PO1>
+          <PO101>1</PO101>
+          <PO102>120</PO102>
+          <PO103>EA</PO103>
+          <PO104>9.25</PO104>
+          <PO105>TE</PO105>
+          <PO106>CB</PO106>
+          <PO107>065322-117</PO107>
+          <PO108>PR</PO108>
+          <PO109>RO</PO109>
+          <PO110>VN</PO110>
+          <PO111>AB3542</PO111>
+        </PO1>
+        <Loop LoopId="PID" Name="Product/Item Description">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03 />
+            <PID04 />
+            <PID05>SMALL WIDGET</PID05>
+          </PID>
+        </Loop>
+        <PO4>
+          <PO401>4</PO401>
+          <PO402>4</PO402>
+          <PO403>EA</PO403>
+          <PO404>PLT94</PO404>
+          <PO405 />
+          <PO406>3</PO406>
+          <PO407>LR</PO407>
+          <PO408>15</PO408>
+          <PO409>CT</PO409>
+        </PO4>
+      </Loop>
+      <Loop LoopId="PO1" Name="Baseline Item Data">
+        <PO1>
+          <PO101>2</PO101>
+          <PO102>220</PO102>
+          <PO103>EA</PO103>
+          <PO104>13.79</PO104>
+          <PO105>TE</PO105>
+          <PO106>CB</PO106>
+          <PO107>066850-116</PO107>
+          <PO108>PR</PO108>
+          <PO109>RO</PO109>
+          <PO110>VN</PO110>
+          <PO111>RD5322</PO111>
+        </PO1>
+        <Loop LoopId="PID" Name="Product/Item Description">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03 />
+            <PID04 />
+            <PID05>MEDIUM WIDGET</PID05>
+          </PID>
+        </Loop>
+        <PO4>
+          <PO401>2</PO401>
+          <PO402>2</PO402>
+          <PO403>EA</PO403>
+        </PO4>
+      </Loop>
+      <Loop LoopId="PO1" Name="Baseline Item Data">
+        <PO1>
+          <PO101>3</PO101>
+          <PO102>126</PO102>
+          <PO103>EA</PO103>
+          <PO104>10.99</PO104>
+          <PO105>TE</PO105>
+          <PO106>CB</PO106>
+          <PO107>060733-110</PO107>
+          <PO108>PR</PO108>
+          <PO109>RO</PO109>
+          <PO110>VN</PO110>
+          <PO111>XY5266</PO111>
+        </PO1>
+        <Loop LoopId="PID" Name="Product/Item Description">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03 />
+            <PID04 />
+            <PID05>LARGE WIDGET</PID05>
+          </PID>
+        </Loop>
+        <PO4>
+          <PO401>6</PO401>
+          <PO402>1</PO402>
+          <PO403>EA</PO403>
+          <PO404>PLT94</PO404>
+          <PO405 />
+          <PO406>3</PO406>
+          <PO407>LR</PO407>
+          <PO408>12</PO408>
+          <PO409>CT</PO409>
+        </PO4>
+      </Loop>
+      <Loop LoopId="PO1" Name="Baseline Item Data">
+        <PO1>
+          <PO101>4</PO101>
+          <PO102>76</PO102>
+          <PO103>EA</PO103>
+          <PO104>4.35</PO104>
+          <PO105>TE</PO105>
+          <PO106>CB</PO106>
+          <PO107>065308-116</PO107>
+          <PO108>PR</PO108>
+          <PO109>RO</PO109>
+          <PO110>VN</PO110>
+          <PO111>VX2332</PO111>
+        </PO1>
+        <Loop LoopId="PID" Name="Product/Item Description">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03 />
+            <PID04 />
+            <PID05>NANO WIDGET</PID05>
+          </PID>
+        </Loop>
+        <PO4>
+          <PO401>4</PO401>
+          <PO402>4</PO402>
+          <PO403>EA</PO403>
+          <PO404>PLT94</PO404>
+          <PO405 />
+          <PO406>6</PO406>
+          <PO407>LR</PO407>
+          <PO408>19</PO408>
+          <PO409>CT</PO409>
+        </PO4>
+      </Loop>
+      <Loop LoopId="PO1" Name="Baseline Item Data">
+        <PO1>
+          <PO101>5</PO101>
+          <PO102>72</PO102>
+          <PO103>EA</PO103>
+          <PO104>7.5</PO104>
+          <PO105>TE</PO105>
+          <PO106>CB</PO106>
+          <PO107>065374-118</PO107>
+          <PO108>PR</PO108>
+          <PO109>RO</PO109>
+          <PO110>VN</PO110>
+          <PO111>RV0524</PO111>
+        </PO1>
+        <Loop LoopId="PID" Name="Product/Item Description">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03 />
+            <PID04 />
+            <PID05>BLUE WIDGET</PID05>
+          </PID>
+        </Loop>
+        <PO4>
+          <PO401>4</PO401>
+          <PO402>4</PO402>
+          <PO403>EA</PO403>
+        </PO4>
+      </Loop>
+      <Loop LoopId="PO1" Name="Baseline Item Data">
+        <PO1>
+          <PO101>6</PO101>
+          <PO102>696</PO102>
+          <PO103>EA</PO103>
+          <PO104>9.55</PO104>
+          <PO105>TE</PO105>
+          <PO106>CB</PO106>
+          <PO107>067504-118</PO107>
+          <PO108>PR</PO108>
+          <PO109>RO</PO109>
+          <PO110>VN</PO110>
+          <PO111>DX1875</PO111>
+        </PO1>
+        <Loop LoopId="PID" Name="Product/Item Description">
+          <PID>
+            <PID01>F</PID01>
+            <PID02 />
+            <PID03 />
+            <PID04 />
+            <PID05>ORANGE WIDGET</PID05>
+          </PID>
+        </Loop>
+        <PO4>
+          <PO401>6</PO401>
+          <PO402>6</PO402>
+          <PO403>EA</PO403>
+          <PO404>PLT94</PO404>
+          <PO405 />
+          <PO406>3</PO406>
+          <PO407>LR</PO407>
+          <PO408>10</PO408>
+          <PO409>CT</PO409>
+        </PO4>
+      </Loop>
+      <Loop LoopId="CTT" Name="Transaction Totals">
+        <CTT>
+          <CTT01>6</CTT01>
+        </CTT>
+        <AMT>
+          <!--Amount Qualifier Code-->
+          <AMT01>1</AMT01>
+          <!--Monetary Amount-->
+          <AMT02>13045.94</AMT02>
+        </AMT>
+      </Loop>
+      <SE>
+        <!--Number of Included Segments-->
+        <SE01>33</SE01>
+        <!--Transaction Set Control Number-->
+        <SE02>000000010</SE02>
+      </SE>
+    </Transaction>
+    <GE>
+      <!--Number of Transaction Sets Included-->
+      <GE01>1</GE01>
+      <!--Group Control Number-->
+      <GE02>1421</GE02>
+    </GE>
+  </FunctionGroup>
+  <IEA>
+    <!--Number of Included Functional Groups-->
+    <IEA01>1</IEA01>
+    <!--Interchange Control Number-->
+    <IEA02>000003438</IEA02>
+  </IEA>
+</Interchange>
